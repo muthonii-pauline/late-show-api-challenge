@@ -53,15 +53,13 @@ python server/seed.py
 Start the Flask application with:
 
 ```bash
+
+export FLASK_APP=server.app
+
 flask run
 
 ```
 
-or
-
-```bash
-python -m flask run
-```
 
 The API will be available at `http://localhost:5000`.
 
